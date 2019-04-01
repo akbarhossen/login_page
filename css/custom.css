@@ -1,0 +1,71 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800i');
+
+/*Gobal CSS*/
+*{
+	margin: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #3333;
+	background: #e2e2dcc9;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+
+/*Login Form CSS*/
+.login_form{
+	width: 460px;
+    background:#adff2f73;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+}
+.avater{
+	width: 100px;
+    height: 100px;
+    background: coral;
+    border-radius: 100%;
+    display: block;
+    margin: -65px auto 0;
+    border:2px solid coral;
+}
+.fa-user-o{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    line-height: 90px;
+    color: azure;
+}
+
+.login_form h3{
+	text-align: center;
+}
+.form_group{
+	margin: 10px 0;	
+}   
+.form_control{
+	width: 100%;
+    height: 20px;
+    margin: 5px 0;
+    border: 1px solid beige;
+}
+.btn_submit{
+	padding: 10px 20px;
+    background: darksalmon;
+    font-size: 17px;
+    margin-top: 10px;
+    border:none;
+    color: white;
+    transition: 0.7s ease-in-out;
+}
+.btn_submit:hover{
+    background-color: white;
+    color:darksalmon;
+    cursor:pointer; 
+} 
+
